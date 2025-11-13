@@ -27,7 +27,7 @@ services:
     env_file: .env  # Load environment variables for the app
     environment:
       # Provide a default DATABASE_URL if not specified in .env
-      DATABASE_URL: ${DATABASE_URL:-postgresql://postgres:postgres@db:5432/postgres}
+      DATABASE_URL: ${DATABASE_URL} ##updated for Supabase Variable .env
     ports:
       - "8000:8000"  # Map container port 8000 to host port 8000
     restart: unless-stopped

@@ -28,7 +28,6 @@ Client → FastAPI (app/main.py)
 ## ⚙️ Run Locally
 
 ### 1. Clone repo
-```bash
 git clone https://github.com/<your-username>/myFirstFastAPI.git
 cd myFirstFastAPI
 

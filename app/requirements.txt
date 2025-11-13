@@ -1,5 +1,14 @@
+# FastAPI framework for building APIs
 fastapi
+
+# ASGI server to run the FastAPI app (with auto-reload in dev)
 uvicorn
+
+# PostgreSQL driver packaged with prebuilt binaries for convenience
 psycopg2-binary
+
+# Data validation and settings management used by FastAPI models
 pydantic
+
+# Load environment variables from a .env file during local development
 python-dotenv
